@@ -1,0 +1,9 @@
+g++ main.cpp && oj t 
+oj t -c "go run main.go" -d ./test
+oj t -c "java Main.java" -d ./test/
+oj t -c 'sh -c "node main.js"'
+oj t -c "php main.php" -d ./test
+oj t -c "python3 main.py" -d ./test
+oj t -c 'sh -c "npx ts-node main.ts"'
+
+acc submit Main.java -- -l 4005
